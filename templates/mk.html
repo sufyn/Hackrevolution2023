@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smoking_detection</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+
+</head>
+<style>
+h1{
+
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    transform: translateY(150px);
+    margin-bottom: 50px;
+}
+.one{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 100%;
+    margin-top: 200px ;
+    padding: 50px;
+    border-radius: 20px;
+}
+.two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    text-decoration: none;
+    background-color: #1a1a1a;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+</style>
+
+<body>
+    <nav>
+        <!-- <img src="{{url_for('static', filename='smkqt3.jfif')}}" style="width: 15%; " alt="smoke" > -->
+        <div class="nav">
+            <img class="dropbtn" src="{{url_for('static', filename='menu.png')}}">
+
+            <div class="drop-cnt">
+                <a href='/'>Home</a>
+                <a href='/Faiz'>Harcasacde</a>
+                <a href='/Anas'>Smoking</a>
+                
+                <a href='/Kaif'>Har vs Yolo</a>
+                <a href='/Mujahid'>Project-details</a>
+            </div>
+    </nav>
+    </div>
+    <h1  >SMOKING DETECTION</h1>
+    <div class="one" >
+    <h3>Tools Used</h3>
+    <div class="two">
+    <div class="box">
+        <h4>Harcscade</h4>
+        <p>Haar cascade is an algorithm that can detect objects in images, irrespective of their scale in image and location. This algorithm is not so complex and can run in real-time. We can train a haar-cascade detector to detect various objects</p>
+        <a href="https://en.wikipedia.org/wiki/Flask_(web_framework)#:~:text=Flask%20is%20a%20micro%20web,party%20libraries%20provide%20common%20functions." >Learn More</a>
+        
+    </div>
+    <div class="box">
+        <h4>Open CV</h4>
+        <p>The library has more than 2500 optimized algorithms, which includes a comprehensive set of both classic and state-of-the-art computer vision and machine learning algorithms. These algorithms can be used to detect and recognize faces, identify objects, classify human actions in videos, track camera movements, track moving objects.</p>
+        <a href="https://opencv.org/about/">Learn More</a>
+        
+    </div>
+    <div class="box">
+        <h4>Flask</h4>
+        <p>Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.</p>
+        <a href="https://en.wikipedia.org/wiki/Flask_(web_framework)#:~:text=Flask%20is%20a%20micro%20web,party%20libraries%20provide%20common%20functions." >Learn More</a>
+        
+    </div>
+    <div class="box">
+        <h4>Yolo</h4>
+        <p>Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.</p>
+        <a href="https://en.wikipedia.org/wiki/Flask_(web_framework)#:~:text=Flask%20is%20a%20micro%20web,party%20libraries%20provide%20common%20functions." >Learn More</a>
+        
+    </div>
+</div>
+</div>
+</body>
+</html>
